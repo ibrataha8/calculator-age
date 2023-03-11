@@ -1,0 +1,36 @@
+*{
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#resultat{
+    display: none;
+    margin: 10px auto;
+    padding: 8px;
+    border: 2px dashed rgb(162, 92, 92);
+    text-align: center;
+    width: fit-content;
+}
+#sp{
+    text-align: center;
+    background: black;
+    color: lightgrey;
+    cursor: pointer;
+    margin: 8px;
+    padding: 8px;
+}
+.pre,.deu,.troi{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    text-align: center;
+}
